@@ -1,0 +1,513 @@
+        
+.logo a img{
+    position: absolute;
+    left: 15%;
+    top: -9px;
+    z-index: 999;
+    width: 181px;
+    height: 96px;
+    position: fixed;
+}
+.div5{
+    position: absolute;
+    right: 18%;
+    top: 15px;
+    float: left; 
+    z-index: 999;
+    position: fixed;
+    font-size: 13px;
+        
+}
+.div5{
+    float: left;
+}
+header{
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0.7)80px, rgba(255,255,255,0.4)80px, rgba(255,255,255,0.4));
+    height: 80px;
+    position: absolute;
+    z-index: 10;
+}
+
+header:hover{
+   background: linear-gradient(rgba(255,255,255,0.7)80px, rgba(255,255,255,0.4)80px, rgba(255,255,255,0.4));
+   
+}
+header li:hover{
+     color: dimgray;
+}
+header nav ul li a:hover{
+    color: dimgray;
+}
+header nav ul li .a{
+    padding-left: 10px;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 23%;
+    
+}
+nav > ul {width: 70%;} 
+nav > ul > li {width:25%; text-align: center;}
+nav > ul > li{
+    float: left;
+    _line-height: 90px;
+    font-size: 23px;
+    position: relative;
+    top: 30px;
+}
+
+nav > ul > li > ul{
+    line-height: 45px;
+    width: 100%;
+    display: none;
+   position: relative;
+    top: 13px;
+}
+
+nav > ul > li > ul >li {
+    position: relative;
+    width:100%;
+}
+nav ul li ul li a{
+    font-size: 18px;
+}
+
+
+header.sticky{
+    position: fixed;
+    height: 70px;
+    background: linear-gradient(rgba(255,255,255,0.9)80px, rgba(255,255,255,0.3)70px, rgba(255,255,255,0.3));
+    _padding-left: ;
+    
+}
+header.sticky nav ul li a:hover{
+    color: dimgray;
+    
+}
+header.sticky nav ul li .a{
+    padding-left: 11px;
+    
+}
+
+        
+        
+        
+        body{
+            font-size: 16px;
+        }
+        #container{
+        
+            
+            
+}
+        .imgimg{
+            width: 100%;
+            background: url('../img/review3.jpg');
+            height: 290px;
+            background-attachment: fixed;
+            position: relative;
+            top: 80px;
+
+}
+
+
+      #join_box{
+        width: 1200px;
+        height: 1660px;
+        margin: 0 auto;
+        box-shadow: 2px 5px 25px #0004;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 30px;
+        padding-left: 90px;
+        }
+
+        #container{
+            width: 100%;
+            position: relative;
+            top: -10px;
+        }
+
+        .h1{
+        width: 10%;
+        _padding-top: -0px;
+        text-align: left;
+        font-size: 60px;
+        font-weight: 100;
+        color: #fff;
+        position: relative;
+        top: -50px;
+        left: 19%;    
+    
+        }
+         .div{
+        width: 280px;
+        background-color: brown;
+        height: 5px;
+        position: absolute;
+        top: 30px;
+        left: 19%; 
+       
+        }
+
+        .h3{
+        padding-top: px;
+        text-align: lefe;
+        font-size: 18px;
+        font-weight: 40;
+        margin-bottom: 50px;
+        color: #fff;
+        position: absolute;
+        top: 9px;
+        left: 19%; 
+        }
+
+        #join_box{
+            max-width: 880px;
+            margin: 0 auto 80px auto;
+            position: relative;
+        }
+        #join_box:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #join_box > h4{
+            font-size: 20px;
+        }
+        form{
+            max-width: 700px;
+            position: relative;
+            margin: 50px 0;
+        }
+        
+        form > p > span{
+            width: 20%;
+            display: inline-block;
+            line-height: 50px;
+        }
+        form > p > input[type="text"]{
+            height: 35px;
+        }
+         form > p > input[type="password"]{
+            height: 35px;
+        }
+        form > p > setect {
+            height: 35px;
+        }
+        
+        form > p > input[type="button"]{
+            height: 35px;
+            line-height: 34px;
+            padding: 0 10px;
+            border: 1px solid #bbbbbb;
+        }
+        .condition{
+            width: auto;
+            font-size: 14px;
+        }
+        .choice{
+            width: auto;
+            height: 20px;
+            font-size: 12px;
+            padding-left: 20%;
+            line-height: 0;
+        }
+        form > .join_terms{
+            margin: 50px auto 0 auto;
+            border: 1px solid #bbbbbb;
+        }
+        form > .join_terms > li{
+            position: relative;
+            line-height: 80px;
+            padding-left: 30px;
+            font-size: 16px;
+            border-bottom: 1px solid #bbbbbb;
+        }
+        form > .join_terms > li:nth-child(4){
+            border: 0;
+        }
+        form > .join_terms > li > input[type="checkbox"]{
+            width: 17px;
+            height: 17px;
+        }
+        
+        form > .join_terms > li > span{
+            padding-left: 20px;
+        }
+        form > .join_terms > li > .join_down{
+            position: absolute;
+            top: 25px;
+            right: 50px;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .on{
+            transform: rotate(180deg);
+            transition: all 0.5s;
+        }
+        form > .join_terms > li > textarea{
+            font-size: 12px;
+            position: relative;
+            z-index: 10;
+            width: 93%;
+        }
+        .join_btn{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 50px;
+            width: 150px;
+            height: 50px;
+            background: #39528a;
+            color: #f9f9f9;
+        }
+
+
+
+
+
+
+
+
+
+
+/*공지*/
+
+ h3 {
+        text-align: center; height: 80px; line-height: 80px; font-size:25px;
+        
+    }
+    div.table_layout {
+        width:90%; margin:0 auto;
+    }
+    div.table_layout ul{
+        display:none;
+    }
+    div.table_layout ul.list {
+        display:table; 
+        width:100%;
+    }
+    div.table_layout ul.list > li {
+        display:table-row;
+    }
+    div.table_layout ul.list > li > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding:5px;
+    }
+    .table_layout .table_th > div {
+        border-top:2px solid #000;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: bold;
+        
+    }
+    
+/*    list*/
+    .table_layout .table_tr > div {
+        height: 50px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .table_tr .subject {text-align: left !important;}
+    .table_tr:hover {background: #fbfbfb;}
+/*    pagination*/
+    .pagination {
+        width;90%;
+        margin:0 auto;
+        padding-top: 100px;
+           }
+    .pagination img {
+        display:inline-block;
+        vertical-align: middle;
+        width:auto;
+        margin-top:-5px;
+    }
+    .pagination .page_wrap {
+        width:400px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    .pagination a {
+        display:block;
+        float:left;
+        width:40px; height: 40px;
+        line-height: 40px;
+        border:1px solid #e6e6e6;
+        text-align: center;
+        margin:0 5px;
+    }
+    .pagination a:hover {background: #e6e6e6;}
+    .pagination a.active {background: #e6e6e6;}
+    
+/*    bottom*/
+    #bottom_wrap {
+        width:90%;
+        margin:30px auto;
+        overflow: hidden;
+    }
+    .btn_wrap {
+        width:30%; 
+        float:right;
+        text-align: right;
+    }
+    #bo_sch {
+        width:70%;
+        float:left;
+        border:3px solid #ddd;
+        border-radius: 5px;
+        position:relative;
+        max-width:400px;
+    }
+    .btn_wrap .btn {
+        width:120px;
+        height: 42px;
+        font-size: 16px;
+        border:none;
+        background: #0e71b8;
+        color:white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    #bo_sch legend {
+        text-indent: -9999px;
+        font-size: 0;
+    }
+    #bo_sch select {
+        width:90px;
+        height: 37px;
+        border:0;
+        border-right:1px solid #ddd;
+        font-size:14px;
+    }
+    #bo_sch label.sound_only {
+        font-size:0;
+    }
+    #bo_sch .sch_input {
+        height: 37px;
+        border:0;
+        width:60%;
+        padding:0 0px 0 0;
+    }
+    #bo_sch .sch_btn {
+        height: 37px;
+        width:40px;
+        color:#0e71b8;
+        border:0;
+        position:absolute;
+        right:0;
+        top:0;
+        background: #fff;
+    }
+
+
+
+.box:nth-child(5){_background-color:#00f;}
+
+/*풋터*/
+.box5{
+    width: 100%;
+    margin: 0 auto;
+}
+.box5 .box5_1{
+    width: 100%;
+    padding-top: 80px;
+} 
+.footer{
+/*
+    position: absolute;
+    bottom:0;
+*/
+    _margin-top: 500px;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    background: #101010;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+    
+.footer .text_1{
+    line-height: 3;
+}
+
+
+
+    @media screen and (max-width:600px){
+        body {font-size:14px;}
+        h3 {
+            font-size:20px; margin-top:0;
+        }
+        ul.list > li > div {
+            display:block !important;
+        }
+        div.table_layout ul li {
+            display:block;
+            border-bottom:1px solid #e0e0e0;
+        }
+        div.table_layout ul li div {
+            display:block;
+        }
+        .num.dpnone, .date.dpnone, .count.dpnone {
+            display:none !important;
+        }
+        .table_tr:after {
+            content:'';
+            display:block;
+            clear: both;
+        }
+        .table_tr > div {border-bottom:none;}
+        .num {
+            width:10%;
+            background:#ccc;
+        }
+        .subject {
+            width:60%;
+        }
+        .table_layout .table_th > div {
+            height: 50px;
+            border:none;
+            border-top:3px solid #0e71b8;
+            border-bottom:1px solid #e0e0e0;
+            font-size:14px;
+        }
+        .table_layout .table_tr > div {
+            height: 30px;
+            border:none;
+        }
+        .subject, .num, .date, .count {float:left;}
+        .subject {
+            word-wrap : nomal;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .btn_wrap {
+            width:100%;
+            margin-bottom:20px;
+            padding-right:180px;
+            position: relative;
+            top: 100px;
+        }   
+        #bo_sch {
+            width:100%;
+            max-width: 100%;
+        }
+        .btn_wrap .btn {
+            width:92px;
+            height: 32px;
+            font-size: 12px;
+        }
+        .pagination .page_wrap {
+            width:272px;
+        }
+        .pagination a {
+            width:30px;
+            height: 30px;
+            line-height: 30px;
+            margin:0 2px;
+        }
+    }

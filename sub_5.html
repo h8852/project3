@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rooms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/sub_5.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/index.js"></script>
+    <script src="js/swiper.min.js"></script>
+     <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+    <script>
+        $(function(){
+            var $firstMenu = $('nav > ul >li'),
+              $header = $('header'),
+              $headerHeight = $header.outerHeight();
+        
+           $firstMenu.mouseenter(function(){
+               var currentMenu = $(this);
+               var subHeight = currentMenu.find('ul').outerHeight();
+               $header.stop().animate({height: $headerHeight + subHeight + 'px'},300);
+               setTimeout(function(){currentMenu.find('ul').stop().show();}, 150);
+           }).mouseleave(function(){
+               $header.stop().animate({height: $headerHeight + 'px'},300); 
+               $firstMenu.find('ul').hide();
+           });
+           
+           //상단고정
+           $(window).scroll(function(){
+               if($(this).scrollTop() > 0){
+                        $header.addClass('sticky');
+                  }else{
+                        $header.removeClass('sticky');
+                  }
+           });
+        });
+
+    </script>
+</head>
+<body>
+
+   <div class="box box1">
+      <div class="logo">
+    <a href="index.html"><img src="img/img_homebox_logo05.png" alt=""></a>
+</div>
+<div class="div">        
+     <a href="#">Login |</a> <a href="join.html">Join</a>
+</div>
+<header style="height: 80px;">  
+   <nav>
+       <ul class="clearfix">
+           <li>About
+               <ul>
+                   <li><a href="sub_0.html">Company</a></li>
+               </ul>
+           </li>
+           <li>Preview
+               <ul>
+                   <li><a href="sub_1.html"class="a">Rooms</a></li>
+                   <li><a href="sub_2.html"class="a">Comvenience</a></li>
+                   <li><a href="sub_3.html"class="a">Reservation</a></li>
+               </ul>
+           </li>
+           <li>Promotion
+               <ul>
+                   <li><a href="sub_4.html" class="a">Packag</a></li>
+                   <li><a href="sub_5.html"class="a">Event</a></li>
+                   <li><a href="sub_6.html"class="a">Wedding</a></li>
+               </ul>
+           </li>
+           <li>Guide
+               <ul>
+                   <li><a href="map.html">Map</a></li>
+                   <li><a href="note.html">REVIEW</a></li>
+               </ul>
+           </li>
+       </ul>
+   </nav>
+</header>
+      
+       <div class="main_img">
+<!--           <img src="img/event1%20(1).jpg" alt="">-->
+       </div>
+       <div class="v1"></div>
+       <div class="txt">
+           <h1>LESCAPE의 EVENT</h1>
+           <h3>OFFER</h3>
+           <h6>리스케이프만의 특별한 이벤트를 경험하세요.</h6>
+       </div>
+       <div class="icon">
+       </div>
+       
+       
+       <div class="color">
+       <div class="v1"></div>
+       <div class="txxt">
+           <h6> <strong>BEST</strong> EVENT </h6>
+       </div>
+       <div class="b_box">
+          <div class="bb_box">
+           <div class="l_box">
+                <img src="img/event1_2.png" alt="">
+                <div class="s_box">
+                    
+                </div>
+           </div>
+           
+           <div class="r_box">
+               <div class="r_b_box"></div>
+               <div class="s_b_box">
+                   <h3>GIRLS' NIGHT OUT</h3>
+                   <h4>소중한 친구의 새로운 출발을 위해 <br> 브라이덜 샤워 이벤트가 제공됩니다. <br>이벤트와 함께 축하해주세요.</h4>
+                   <h5>2021.01.01~2021.01.31</h5>
+                   <h6>KRW 340,000~ </h6>
+               </div>
+           </div>
+           <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+            </div>
+           </div>
+       </div>
+       
+             
+     </div>
+   </div>
+ 
+ <div class="box box3">
+       <div class="v1"></div>
+       <h1>EVENT LIST</h1>
+        <div class="v2"></div>
+        <h6 class="h6">LESCAPE 호텔에서 제공하는 특별한 이벤트를 경험하시고 소중한 추억을 만드세요.</h6>
+    
+        <div class="content">
+           <div class="bb_box">
+            <div class="b_box1">
+               <img src="img/event1%20(9).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>GIRLS' NIGHT OUT</h4>
+                    <h6>소중한 친구의 새로운 출발을 위해 브라이덜 샤워 이벤트가 제공됩니다.</h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 50,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/event1%20(14).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>EVENT DAY DAY</h4>
+                    <h6>특별한 기념일을 미리 말씀해주시면 저렴한 가격에 와인과 선물을 드립니다.</h6>
+                    <h5>
+                        
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 10,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/event1%20(10).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>랍스타너리</h4>
+                    <h6>이번 시즌 랍스타를 50% 할인해서 접할 수 있는 이벤트입니다.</h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 50,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+           </div>
+        </div>
+   </div>
+   
+
+   <div class="box box4">
+       <div class="content">
+           <div class="bb_box">
+            <div class="b_box1">
+               <img src="img/event1%20(11).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>더파빌리온 이벤트</h4>
+                    <h6>LESCAPE대표 레스토랑 더파빌리온에서 이번시즌 할인이벤트를 진행합니다.
+                    </h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 40,000 (세트메뉴 기준)
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/event1%20(8).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>스파 하루 이벤트</h4>
+                    <h6>VIP회원님들을 위한 스파 이벤트를 진행합니다.</h6>
+                    <h5>
+                        
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 10,000 (예약금)
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/event1%20(13).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>카페테리아</h4>
+                    <h6>새롭게 런칭하는 카페테리아 에서 무료식음 이벤트를 진행합니다.</h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        FREE
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+           </div>
+        </div>
+
+      
+
+      
+
+   </div>
+   <div class="box5">
+       <!--  풋터-->
+       <div class="box5_1">
+        <div class="footer">
+             <div class="text_1">
+                 <h5>Customer Center | 개인정보처리방침 | 이용약관  | 이메일무단수집금지</h5>
+                 <h3><img src="img/img_brand_logo04.png" alt=""></h3>
+                 <h4> 아이콘 </h4>
+                 <h6>서울특별시 당산역 대로면 5 <br>
+                      사업자등록번호 531-12-123456 통신판매신고번호 당산 12345호 대표이사 윤하진
+                 </h6>
+             </div>
+        </div>
+     </div>
+   </div>
+   
+   
+   
+   
+   
+<!--메뉴-->
+    
+    
+<!--마우스휠-->
+    <script>
+    $(document).ready(function(){
+       $(".box").on("mousewheel", function(e){ //자바스크립트
+//           $(".box").mousewheel(function(){
+//               
+//           });
+            var delta = 0;
+            delta = e.originalEvent.wheelDelta/120; //휠을 내리면 -120, 휠을 올리면 120 (1 또는 -1)
+            var moveTop = 0;
+            if(delta < 0){  //마우스휠를 내린경우
+                try {
+                    moveTop = $(this).next().offset().top;
+                }catch(e) {return false;}
+            } else { //마우스휠을 올린경우
+                try {
+                    moveTop = $(this).prev().offset().top;
+                }catch(e) {return false;}
+            }
+            
+            $("html, body").stop().animate({scrollTop:moveTop+"px"}, 1000);
+        });
+    });
+</script>  
+    
+</body>
+</html>

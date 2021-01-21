@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rooms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/sub_1.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/index.js"></script>
+    <script src="js/swiper.min.js"></script>
+     <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+    <script>
+        $(function(){
+            var $firstMenu = $('nav > ul >li'),
+              $header = $('header'),
+              $headerHeight = $header.outerHeight();
+        
+           $firstMenu.mouseenter(function(){
+               var currentMenu = $(this);
+               var subHeight = currentMenu.find('ul').outerHeight();
+               $header.stop().animate({height: $headerHeight + subHeight + 'px'},300);
+               setTimeout(function(){currentMenu.find('ul').stop().show();}, 150);
+           }).mouseleave(function(){
+               $header.stop().animate({height: $headerHeight + 'px'},300); 
+               $firstMenu.find('ul').hide();
+           });
+           
+           //상단고정
+           $(window).scroll(function(){
+               if($(this).scrollTop() > 0){
+                        $header.addClass('sticky');
+                  }else{
+                        $header.removeClass('sticky');
+                  }
+           });
+        });
+
+    </script>
+</head>
+<body>
+
+   <div class="box box1">
+      <div class="logo">
+    <a href="index.html"><img src="img/img_homebox_logo05.png" alt=""></a>
+</div>
+<div class="div">        
+     <a href="#">Login |</a> <a href="join.html">Join</a>
+</div>
+<header style="height: 80px;">  
+  <nav>
+       <ul class="clearfix">
+           <li>About
+               <ul>
+                   <li><a href="sub_0.html">Company</a></li>
+               </ul>
+           </li>
+           <li>Preview
+               <ul>
+                   <li><a href="sub_1.html"class="a">Rooms</a></li>
+                   <li><a href="sub_2.html"class="a">Comvenience</a></li>
+                   <li><a href="sub_3.html"class="a">Reservation</a></li>
+               </ul>
+           </li>
+           <li>Promotion
+               <ul>
+                   <li><a href="sub_4.html" class="a">Packag</a></li>
+                   <li><a href="sub_5.html"class="a">Event</a></li>
+                   <li><a href="sub_6.html"class="a">Wedding</a></li>
+               </ul>
+           </li>
+           <li>Guide
+               <ul>
+                   <li><a href="map.html">Map</a></li>
+                   <li><a href="note.html">REVIEW</a></li>
+               </ul>
+           </li>
+       </ul>
+   </nav>
+</header>
+      
+       <div class="main_img">
+           <img src="img/sub_1.png" alt="">
+       </div>
+       <div class="txt">
+           <h1>EWCLUSIVE <br> GETAWAY</h1>
+           <h3>색다른라이프를 즐기는 당신을 위해 <br>  디자인된 객실에서
+            삶의 에너지를 충전해 보세요.</h3>
+       </div>
+       <div class="icon">
+           
+       </div>
+   </div>
+   
+   <div class="box box2">
+     <div class="left">
+        <div class="line_1">
+            
+        </div>  
+        <div class="txt_1">
+            <h1>
+               OVERVIEWS 
+            </h1>
+            <h3>
+                FOR YOUR <br> CREATIVE MIMENTS
+            </h3>
+            <h5>
+                한간이 한눈에 내려다 보이는 호텔에서 <br>
+                구름처럼 자리한 LESCAPE 서울의 객실들은 <br>
+                도심 최고의 전망과 세련된 인테리어, <br>
+                고객의 편리한 투숙 경험을 위헌 최신 설비들이 <br>
+                갖추어져 있습니다.
+            </h5>
+        </div>
+        <div class="line_2">
+            
+        </div>  
+     </div>
+     <div class="right">
+         <div class="b_box">
+             <div class="s_box1">
+                 <div class="s_box1_1">
+                    <a href="sub_1_1.html"><img src="img/sub_box1_2.png" alt=""></a>
+                     <h6 class="txt_11">LESCAPE DELUXE</h6>
+                     <h6 class="txt_22"> CLICK </h6>
+                 </div>
+                 <div class="s_box1_2">
+                    <a href="sub_1_1.html"><img src="img/sub_box1_1.png" alt=""></a>
+                     <h6>SPA DELUXE</h6>
+                 </div>
+             </div>
+             <div class="s_box2">
+                 <a href="sub_1_1.html"><img src="img/sub_box2.png" alt=""></a>
+                     <h6>JUNIOR CORNER SUITE</h6>
+             </div>
+             <div class="s_box3">
+                 <a href="sub_1_1.html"><img src="img/sub_box3.png" alt=""></a>
+                     <h6>LESCAPE SUITE</h6>
+             </div>
+             <div class="s_box4">
+                 <a href="sub_1_1.html"><img src="img/sub_box4.png" alt=""></a>
+                     <h6>JUNIOR SPA SUITE</h6>
+             </div>
+             <div class="s_box5">
+                 <a href="sub_1_1.html"><img src="img/sub_box5.png" alt=""></a>
+                     <h6>AMBASSADOR SUITE</h6>
+             </div>
+         </div>
+     </div>
+      
+    </div>
+   <div class="box box3">
+       
+       <h1>SPECIAL OFFER</h1>
+        <div class="v1"></div>
+    
+        <div class="content">
+           <div class="bb_box">
+            <div class="b_box1">
+               <img src="img/sub_1_4%20(1).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>힐링 포레스트</h4>
+                    <h6>숲속에서 즐기는 명상을 체험해보세요
+                    <br>
+                    카운터로 문의 주세요.</h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 50,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/sub_1_4%20(2).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>승마체험</h4>
+                    <h6>LESCAPE와 함께 특별한 승마 체험. <br>
+                    카운터로 문의 주세요.</h6>
+                    <h5>
+                        
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 50,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+            <div class="b_box1">
+               <img src="img/sub_1_4%20(3).jpg" alt="">
+                <div class="s_box1">
+                    
+                </div>
+                <div class="s_box2">
+                    <h4>COOL & MIX</h4>
+                    <h6>더글라스 하우스의 전문가의 노하우를 배워보세요.
+                    카운터로 문의 주세요.</h6>
+                    <h5>
+                        2021.01.01~2021.12.25
+                    </h5>
+                    <h3>
+                        KRW 50,000
+                    </h3>
+                </div>
+                <div class="s_box3">
+                    <h6>GRAND LESCAPE SEOUL</h6>
+                </div>
+            </div>
+           </div>
+        </div>
+   </div>
+   
+ 
+   <div class="box5">
+       <!--  풋터-->
+       <div class="box5_1">
+        <div class="footer">
+             <div class="text_1">
+                 <h5>Customer Center | 개인정보처리방침 | 이용약관  | 이메일무단수집금지</h5>
+                 <h3><img src="img/img_brand_logo04.png" alt=""></h3>
+                 <h4> 아이콘 </h4>
+                 <h6>서울특별시 당산역 대로면 5 <br>
+                      사업자등록번호 531-12-123456 통신판매신고번호 당산 12345호 대표이사 윤하진
+                 </h6>
+             </div>
+        </div>
+     </div>
+   </div>
+   
+   
+   
+   
+   
+<!--메뉴-->
+    
+    
+<!--마우스휠-->
+    <script>
+    $(document).ready(function(){
+       $(".box").on("mousewheel", function(e){ //자바스크립트
+//           $(".box").mousewheel(function(){
+//               
+//           });
+            var delta = 0;
+            delta = e.originalEvent.wheelDelta/120; //휠을 내리면 -120, 휠을 올리면 120 (1 또는 -1)
+            var moveTop = 0;
+            if(delta < 0){  //마우스휠를 내린경우
+                try {
+                    moveTop = $(this).next().offset().top;
+                }catch(e) {return false;}
+            } else { //마우스휠을 올린경우
+                try {
+                    moveTop = $(this).prev().offset().top;
+                }catch(e) {return false;}
+            }
+            
+            $("html, body").stop().animate({scrollTop:moveTop+"px"}, 1000);
+        });
+    });
+</script>  
+    
+</body>
+</html>
